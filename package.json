@@ -1,0 +1,40 @@
+{
+  "name": "react-boilerplate-daraa",
+  "version": "1.0.0",
+  "description": "Yet to be added",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --port 3000 --mode development --open --hot",
+ "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhansol/react-boilerplate-daraa.git"
+  },
+  "keywords": [
+    "boilerplate"
+  ],
+  "author": "Dhanish kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dhansol/react-boilerplate-daraa/issues"
+  },
+  "homepage": "https://github.com/Dhansol/react-boilerplate-daraa#readme",
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "css-loader": "7.1.2",
+    "html-webpack-plugin": "5.6.0",
+    "source-map-loader": "5.0.0",
+    "ts-loader": "9.5.1",
+    "typescript": "5.5.2",
+    "webpack": "5.92.1",
+    "webpack-cli": "5.1.4",
+    "webpack-dev-server": "5.0.4"
+  }
+}
